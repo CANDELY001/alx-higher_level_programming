@@ -11,4 +11,4 @@ if number % 10 > 5:
 elif number % 10 == 0:
     print(msg.format(number, mod) + "0")
 else:
-    print(msg.format(number, MOD) + "less than 6 and not 0")
+    print(msg.format(number, mod) + "less than 6 and not 0")
