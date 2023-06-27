@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""Defines a square bassed on 0-square.py"""
+"""class Square defines a square by size"""
 
 
 class Square:
-    """Represents a square"""
-
-    def __init__(self, size=0):
-        """Initializes the data"""
-        
-        self.__size = size
+    """ class Square that defines a square"""
+    def __init__(self, size):
+        """initialize square
+        Args:
+            size (int): size of square
+        """
+        self.__size = size  #: size of  square
