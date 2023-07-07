@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module for add_integer method"""
 
+
 def add_integer(a, b=98):
     """Function to add two integers"""
 
@@ -11,4 +12,3 @@ def add_integer(a, b=98):
     a = int(a)
     b = int(b)
     return a + b
-
